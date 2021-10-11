@@ -1,9 +1,8 @@
 .footerWrapper {
-  width: 100%;
+  width: 149.6rem;
   height: 93.1rem;
   /* background-color: #2b354f; */
   font-family: "grotesk-light", sans-serif;
-  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -15,7 +14,7 @@
 }
 
 .footerBorder {
-  width: 100%;
+  width: auto;
   border: 1px solid #384c74;
   margin-bottom: 8.9rem;
 }

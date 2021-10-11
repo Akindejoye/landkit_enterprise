@@ -2,13 +2,15 @@
   margin-top: 10.6rem;
   font-family: "grotesk-light", sans-serif;
   position: relative;
+  width: auto;
 }
 
 .innovateImgBox {
+  width: 149.6rem;
 }
 
 .innovateImg {
-  max-width: 100%;
+  width: 149.6rem;
   height: auto;
   object-fit: cover;
 }
@@ -37,4 +39,94 @@
   position: absolute;
   top: 46.5rem;
   left: 21.7rem;
+}
+
+.downPagebox {
+  background-color: #fff;
+  font-size: 1.5rem;
+  color: #2856ed;
+  border-radius: 5rem;
+  width: 5rem;
+  height: 5rem;
+  box-shadow: 0px 8px 24px rgba(22, 27, 45, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media all and (max-width: 1026px) {
+  .innovateText {
+    position: absolute;
+    top: 24rem;
+    left: 29rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .innovateTextName {
+    position: absolute;
+    top: 39rem;
+    left: 8rem;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media all and (max-width: 798px) {
+  .innovateText {
+    font-size: 2rem;
+    top: 20rem;
+    left: 22rem;
+  }
+
+  .innovateTextName {
+    top: 32rem;
+    left: 9rem;
+  }
+}
+
+@media all and (max-width: 638px) {
+  .innovateText {
+    font-size: 1.5rem;
+    top: 15rem;
+    left: 13rem;
+    line-height: 2.5rem;
+  }
+
+  .innovateTextName {
+    top: 25rem;
+    left: 5rem;
+  }
+}
+
+@media all and (max-width: 511px) {
+  .innovateText {
+    font-size: 1.5rem;
+    top: 10rem;
+    left: 13rem;
+    line-height: 2.5rem;
+  }
+
+  .innovateTextName {
+    top: 18rem;
+    left: 5rem;
+  }
+}
+
+@media all and (max-width: 378px) {
+  .innovateText {
+    font-size: 1rem;
+    top: 8rem;
+    left: 9rem;
+    line-height: 1.5rem;
+  }
+
+  .innovateTextName {
+    top: 13rem;
+    left: 5rem;
+  }
 }

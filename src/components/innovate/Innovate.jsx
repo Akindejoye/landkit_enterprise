@@ -17,6 +17,9 @@ const Innovate = () => {
                     Alice Meyer
                 </span>
             </div>
+            <div className={Breaking.downPagebox}>
+                <i className="arrow-up fas fa-arrow-up"></i>
+            </div>
         </div>
      );
 }

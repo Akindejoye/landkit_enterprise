@@ -45,6 +45,7 @@
   border: none;
   color: #335eea;
   font-family: "Rubik", sans-serif;
+  cursor: pointer;
 }
 
 .downPagebox {
