@@ -1,0 +1,199 @@
+.footerWrapper {
+  width: 100%;
+  height: 93.1rem;
+  /* background-color: #2b354f; */
+  font-family: "grotesk-light", sans-serif;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.footerMargin {
+  position: absolute;
+  bottom: 6rem;
+  left: 0rem;
+  width: 100%;
+}
+
+.footerBorder {
+  width: 100%;
+  border: 1px solid #384c74;
+  margin-bottom: 8.9rem;
+}
+
+.footerCentered {
+  display: flex;
+}
+
+.logoCol {
+  margin-left: 23rem;
+  margin-right: 11.6rem;
+}
+
+.logoBox {
+  margin-bottom: 6.14px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #335eea;
+  letter-spacing: -0.01em;
+  font-family: "grotesk-semi-italic-bold", sans-serif;
+}
+
+.logoColText {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #506690;
+}
+
+.logoColSocial {
+  margin-top: 1rem;
+}
+
+.logoColSocials {
+  margin-right: 1.9rem;
+}
+
+.productCol {
+  margin-right: 4rem;
+}
+
+.productColHeader {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #506690;
+  margin-bottom: 1.6rem;
+}
+
+.productColList {
+  list-style: none;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #869abb;
+}
+
+.productColItems {
+  margin-bottom: 1.4rem;
+}
+
+.servicesCol {
+  margin-right: 4.1rem;
+}
+
+.servicesColHeader {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #506690;
+  margin-bottom: 1.6rem;
+}
+
+.servicesColList {
+  list-style: none;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #869abb;
+}
+
+.servicesColItems {
+  margin-bottom: 1.4rem;
+}
+
+.connectCol {
+  margin-right: 3.9rem;
+}
+
+.connectColHeader {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #506690;
+  margin-bottom: 1.6rem;
+}
+
+.connectColList {
+  list-style: none;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #869abb;
+}
+
+.connectColItems {
+  margin-bottom: 1.4rem;
+}
+
+.legalCol {
+}
+
+.legalColHeader {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #506690;
+  margin-bottom: 1.6rem;
+}
+
+.legalColList {
+  list-style: none;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #869abb;
+}
+
+.legalColItems {
+  margin-bottom: 1.4rem;
+}
+
+@media all and (max-width: 1144px) {
+  .logoCol {
+    margin-left: 10rem;
+    margin-right: 11.6rem;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .logoCol {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media all and (max-width: 852px) {
+  .footerCentered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerMargin {
+    position: absolute;
+    bottom: -70rem;
+    left: 0rem;
+    width: 100%;
+  }
+
+  .footerCentered {
+    background-color: #2b354f;
+  }
+
+  .logoCol {
+    margin-bottom: 4rem;
+  }
+
+  .productCol {
+    margin-bottom: 4rem;
+  }
+
+  .servicesCol {
+    margin-bottom: 4rem;
+  }
+
+  .connectCol {
+    margin-bottom: 4rem;
+  }
+}

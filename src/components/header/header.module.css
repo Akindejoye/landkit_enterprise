@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&family=Space+Grotesk:wght@300&display=swap");
+
+.headerWrapper {
+  width: auto;
+  height: 62.43rem;
+
+  background-color: #fff;
+  font-family: "grotesk", sans-serif;
+  position: relative;
+}
+
+.texBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.headerTextL {
+  font-size: 6.1rem;
+  line-height: 7rem;
+  letter-spacing: -0.01em;
+  color: #fff;
+  margin-bottom: 1.7rem;
+}
+
+.headerTextSm {
+  font-size: 2.1rem;
+  line-height: 3.3rem;
+  color: #fff;
+  opacity: 0.75;
+  text-align: center;
+}
+
+.btnBox {
+  text-align: center;
+  margin-top: 1.8rem;
+}
+
+.headerBtn {
+  width: 18.8rem;
+  height: 5rem;
+  background-color: #fff;
+  border-radius: 6px;
+  border: none;
+  color: #335eea;
+  font-family: "Rubik", sans-serif;
+}
+
+.downPagebox {
+  background-color: #fff;
+  font-size: 1.5rem;
+  color: #2856ed;
+  border-radius: 5rem;
+  width: 5rem;
+  height: 5rem;
+  box-shadow: 0px 8px 24px rgba(22, 27, 45, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: -23rem;
+  left: 30rem;
+}
+
+.arrow-down {
+  font-size: 5rem;
+}
+
+@media all and (max-width: 1247px) {
+  .texBox {
+    text-align: center;
+    width: 100%;
+  }
+
+  .downPagebox {
+    position: absolute;
+    bottom: -22rem;
+    left: 59rem;
+  }
+}
+
+@media all and (max-width: 1238px) {
+  .downPagebox {
+    position: absolute;
+    bottom: -22rem;
+    left: 60rem;
+  }
+}
+
+@media all and (max-width: 1209px) {
+  .downPagebox {
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media all and (max-width: 623px) {
+  .downPagebox {
+    top: 222%;
+  }
+
+  .headerTextL {
+    font-size: 5rem;
+    line-height: 3rem;
+    margin-bottom: 1.7rem;
+  }
+
+  .headerTextSm {
+    font-size: 2rem;
+  }
+}
+
+@media all and (max-width: 515px) {
+  .headerTextL {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
+  .downPagebox {
+    top: 210%;
+  }
+}
+
+@media all and (max-width: 515px) {
+  .headerTextL {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+
+  .downPagebox {
+    top: 210%;
+  }
+}
+
+@media all and (max-width: 465px) {
+  .downPagebox {
+    top: 180%;
+  }
+}
+
+@media all and (max-width: 435px) {
+  .downPagebox {
+    top: 167%;
+  }
+}

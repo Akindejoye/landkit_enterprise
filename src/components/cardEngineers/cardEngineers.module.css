@@ -1,0 +1,52 @@
+.cardWrapper {
+  width: 30.3rem;
+  height: 37.1rem;
+  margin-top: 6rem;
+  margin-bottom: 11.8rem;
+  margin-left: 2rem;
+  font-family: "grotesk-light", sans-serif;
+  box-shadow: 0px 24px 64px rgba(22, 27, 45, 0.1);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #fff;
+}
+
+.cardCentered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.cardLogo {
+}
+
+.cardHeader {
+  font-size: 2.1rem;
+  line-height: 2.9rem;
+  letter-spacing: -0.01em;
+  color: #161b2d;
+}
+
+.cardText {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #506690;
+  text-align: center;
+}
+
+.cardSpan {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #335eea;
+  opacity: 0.6;
+  cursor: pointer;
+  margin-top: -2.5rem;
+}
+
+@media all and (max-width: 830px) {
+  .cardText {
+    font-size: 1.5rem;
+  }
+}

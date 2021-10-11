@@ -1,0 +1,40 @@
+.innovateWrapper {
+  margin-top: 10.6rem;
+  font-family: "grotesk-light", sans-serif;
+  position: relative;
+}
+
+.innovateImgBox {
+}
+
+.innovateImg {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.innovateTextBox {
+}
+
+.innovateText {
+  font-size: 3.1rem;
+  line-height: 4.1rem;
+  letter-spacing: -0.01em;
+  color: #fff;
+
+  position: absolute;
+  top: 28.1rem;
+  left: 21.7rem;
+}
+
+.innovateTextName {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.07em;
+  color: #fff;
+  opacity: 0.7;
+
+  position: absolute;
+  top: 46.5rem;
+  left: 21.7rem;
+}

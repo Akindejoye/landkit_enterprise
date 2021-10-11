@@ -1,0 +1,30 @@
+.integrateWrapper {
+  margin-top: 8.8rem;
+  font-family: "grotesk-light", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.integrateCentered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.integrateHeader {
+  font-size: 3.1rem;
+  line-height: 4.1rem;
+  letter-spacing: -0.01em;
+  color: #161c2d;
+  margin-top: 1.1rem;
+  margin-bottom: 1.3rem;
+}
+
+.integrateText {
+  font-size: 1.9rem;
+  line-height: 3rem;
+  color: #506690;
+  opacity: 0.8;
+  text-align: center;
+}

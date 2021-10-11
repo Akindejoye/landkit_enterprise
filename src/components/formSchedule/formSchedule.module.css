@@ -1,0 +1,207 @@
+.formWrapperTop {
+  display: flex;
+  justify-content: center;
+  font-family: "grotesk-light", sans-serif;
+
+  position: absolute;
+  bottom: 60rem;
+  left: 30%;
+  z-index: 999;
+}
+
+.formWrapper {
+  margin-top: 16rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  width: 60rem;
+  height: auto;
+  border-top: 2px solid #2856ed;
+  box-shadow: 0px 24px 64px rgba(22, 27, 45, 0.04);
+  padding-bottom: 4rem;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.formCentered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formImage {
+  margin-bottom: 2rem;
+}
+
+.formHeader {
+  font-size: 3.1rem;
+  line-height: 4.1rem;
+  letter-spacing: -0.01em;
+  color: #161b2d;
+}
+
+.formText {
+  font-size: 1.9rem;
+  line-height: 2.3rem;
+  color: #6b7c93;
+  margin-bottom: 7.3rem;
+}
+
+.formBox {
+}
+
+.formRow1 {
+  margin-bottom: 4.2rem;
+}
+
+.inputFirst {
+  margin-right: 3.3rem;
+  border: none;
+  border-bottom: 1px solid #d7deef;
+  padding-bottom: 0.5rem;
+  outline: none;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+}
+
+.inputFirst::placeholder {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #687c93;
+  opacity: 0.8;
+}
+
+.inputUser {
+  border: none;
+  border-bottom: 1px solid #d7deef;
+  padding-bottom: 0.5rem;
+  outline: none;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+}
+
+.inputUser::placeholder {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #687c93;
+  opacity: 0.8;
+  color: #db2f44;
+}
+
+.formRow2 {
+  margin-bottom: 4.3rem;
+}
+
+.inputEmail {
+  margin-right: 3.3rem;
+  border: none;
+  border-bottom: 1px solid #d7deef;
+  padding-bottom: 0.5rem;
+  outline: none;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+}
+
+.inputEmail::placeholder {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #687c93;
+  opacity: 0.8;
+}
+
+.inputPassword {
+  border: none;
+  border-bottom: 1px solid #d7deef;
+  padding-bottom: 0.5rem;
+  outline: none;
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+}
+
+.inputPassword::placeholder {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #687c93;
+  opacity: 0.8;
+}
+
+.formBtn {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #fff;
+  width: 98%;
+  height: 5rem;
+  background-color: #2856ed;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+@media all and (max-width: 916px) {
+  .formWrapperTop {
+    position: absolute;
+    bottom: 60rem;
+    left: 20%;
+    z-index: 999;
+  }
+}
+
+@media all and (max-width: 792px) {
+  .formWrapperTop {
+    position: absolute;
+    bottom: 60rem;
+    left: 10%;
+    z-index: 999;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .formWrapperTop {
+    position: absolute;
+    bottom: 60rem;
+    left: 0%;
+    z-index: 999;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .formWrapperTop {
+    position: absolute;
+    bottom: 60rem;
+    left: 20%;
+    z-index: 999;
+  }
+
+  .formWrapper {
+    width: auto;
+  }
+
+  .formRow1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formRow2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputFirst {
+    margin-bottom: 5rem;
+  }
+
+  .inputUser {
+    margin-bottom: 5rem;
+  }
+
+  .inputEmail {
+    margin-bottom: 5rem;
+  }
+
+  .inputPassword {
+    margin-bottom: 5rem;
+  }
+
+  .formHeader {
+    font-size: 2rem;
+  }
+}

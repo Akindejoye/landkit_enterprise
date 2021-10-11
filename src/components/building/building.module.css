@@ -1,0 +1,33 @@
+.buildWrapper {
+  margin-top: 6.6rem;
+  margin-right: 5rem;
+  margin-bottom: 6rem;
+  font-family: "grotesk-light", sans-serif;
+}
+
+.buildCentered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buildImg {
+  margin-bottom: 2.7rem;
+}
+
+.buildHeader {
+  font-size: 2.1rem;
+  line-height: 2.9rem;
+  letter-spacing: -0.01em;
+  color: #161b2d;
+  margin-bottom: 1.2rem;
+}
+
+.buildText {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #6b7c93;
+  opacity: 0.8;
+  text-align: center;
+}

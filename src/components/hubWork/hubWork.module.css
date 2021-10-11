@@ -1,0 +1,186 @@
+.hubWrapper {
+  margin-top: 10.47rem;
+  padding-bottom: 11.2rem;
+  font-family: "grotesk-semibold", sans-serif;
+  background-color: #fff;
+}
+
+.hubHeaderBox {
+}
+
+.hubHeader {
+  font-size: 3.1rem;
+  line-height: 4.1rem;
+  letter-spacing: -0.01em;
+  color: #161b2d;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+}
+
+.hubSubHeaderBox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.hubSubHeader {
+  font-size: 1.9rem;
+  line-height: 3rem;
+  color: #6b7c93;
+  opacity: 0.8;
+}
+
+.hubSectionRowBox {
+  font-family: "grotesk", sans-serif;
+}
+
+.hubSectionRowBox1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.transportBox {
+  display: flex;
+  margin-left: 10rem;
+}
+
+.transportImgBox {
+  margin-right: 3.2rem;
+}
+
+.transportImg {
+  width: 18.7rem;
+  height: 15.1rem;
+}
+
+.transportTextBox {
+}
+
+.transportHeader {
+  font-size: 2.1rem;
+  line-height: 2.9rem;
+  letter-spacing: -0.01em;
+  color: #161b2d;
+}
+
+.transportText {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #506690;
+}
+
+.transport2Box {
+  display: flex;
+  margin-right: 15rem;
+}
+
+.hubSectionRowBox2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3.1rem;
+}
+
+.transport3Box {
+  display: flex;
+  margin-left: 10rem;
+}
+
+.transport4Box {
+  display: flex;
+  margin-right: 15rem;
+}
+
+.transport4ImgBox {
+  margin-right: 4rem;
+}
+
+.transportTextBox4 {
+  margin-right: -2.5rem;
+}
+
+@media all and (max-width: 1297px) {
+  .transportBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .transport2Box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .transport3Box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .transport4Box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 949px) {
+  .hubSectionRowBox1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .transportBox {
+    margin-left: 11rem;
+  }
+
+  .transport2Box {
+    margin-right: 9rem;
+  }
+
+  .transport3Box {
+    margin-left: 2rem;
+  }
+
+  .transport4Box {
+    margin-right: 2rem;
+    margin-bottom: 11.2rem;
+  }
+}
+
+@media all and (max-width: 797px) {
+  .hubSectionRowBox1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+  }
+
+  .transportBox {
+    margin: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .transport2Box {
+    margin: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .hubSectionRowBox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+  }
+
+  .transport3Box {
+    margin: 0rem;
+    margin-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .transport4Box {
+    margin: 0rem;
+    margin-bottom: 11.2rem;
+  }
+}
