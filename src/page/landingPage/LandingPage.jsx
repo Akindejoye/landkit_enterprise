@@ -8,21 +8,24 @@ import Innovate from '../../components/innovate/Innovate';
 import Navigation from '../../components/navigation/Navigation';
 import Footer from '../../components/footer/Footer';
 import FormSchedule from '../../components/formSchedule/FormSchedule';
+import PageLand from './landingPage.module.css'
 
 const LandingPage = () => {
     return ( 
         <>
-            <Navigation />
-            <Header />
-            <HubWork />
-            <Enterprise />
-            <Innovate />
-            <Integration />
-            <CardSection />
-            <Integration />
-            <BuildRender />
-            <FormSchedule />
-            <Footer />
+           <div className={PageLand.landMain}>
+                <Navigation />
+                <Header />
+                <HubWork />
+                <Enterprise />
+                <Innovate />
+                <Integration />
+                <CardSection />
+                <Integration />
+                <BuildRender />
+                <FormSchedule />
+                <Footer />
+           </div>
         </>
      );
 }

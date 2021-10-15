@@ -6,6 +6,7 @@
   align-items: center;
   background-color: #fff;
   font-family: "grotesk-light", sans-serif;
+  position: relative;
 }
 
 .logoBox {
@@ -26,6 +27,7 @@
 .nav {
   list-style: none;
   display: flex;
+  align-items: center;
   margin-left: 14rem;
 }
 
@@ -42,6 +44,11 @@
 }
 
 .navList2 {
+  font-size: 1.7rem;
+  line-height: 2.7rem;
+  color: #506690;
+  margin-right: 5rem;
+  cursor: pointer;
   margin-right: 2rem;
 }
 
@@ -68,115 +75,366 @@
   border: 2px solid #335eea;
 }
 
-@media all and (max-width: 1006px) {
+.btnBox {
+  margin-bottom: 4rem;
+  margin-left: 2rem;
+  padding-top: 2rem;
+}
+
+.btn {
+  width: 3rem;
+  height: 3.5rem;
+  color: #335eea;
+  font-size: 5rem;
+  border: none;
+  background: #fff;
+  display: none;
+  cursor: pointer;
+}
+
+.list {
+}
+
+/****************************MEDIA QUERY***************************/
+
+@media all and (max-width: 112.5em) {
   .navList {
-    font-size: 1.4rem;
-    line-height: 2.7rem;
-    color: #506690;
+    font-size: 2.5rem;
+    margin-right: 7rem;
+  }
+
+  .navList2 {
+    font-size: 2.5rem;
+    margin-right: 7rem;
+  }
+
+  .navWrapper {
+    height: 10rem;
+  }
+  .logo {
+    font-size: 3rem;
+  }
+
+  .navBtn {
+    font-size: 2rem;
+    width: 14rem;
+    height: 5rem;
+  }
+}
+
+@media all and (max-width: 88.75em) {
+  .nav {
+    margin-left: 8rem;
+  }
+
+  .navList {
     margin-right: 3rem;
+    margin-left: 0rem;
   }
 
-  .nav {
-    margin-left: 10rem;
-  }
-}
-
-@media all and (max-width: 832px) {
-  .navList {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-    color: #506690;
-    margin-right: 7px;
+  .navList2 {
+    margin-right: 3rem;
+    margin-left: 0rem;
   }
 
-  .nav {
-    list-style: none;
-    display: flex;
-    margin-left: 2rem;
-  }
-
-  .logoBox {
-    margin-left: 2rem;
-  }
-}
-
-@media all and (max-width: 692px) {
   .navWrapper {
-    width: auto;
-    height: 8rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    font-family: "grotesk-light", sans-serif;
-    margin-bottom: 5rem;
+    height: 10rem;
+  }
+  .logo {
+    font-size: 3rem;
+  }
+
+  .navBtn {
+    font-size: 2rem;
+    width: 14rem;
+    height: 5rem;
+  }
+}
+
+@media all and (max-width: 75em) {
+  .nav {
+    margin-left: 5rem;
   }
 
   .navList {
-    font-size: 1.4rem;
-    line-height: 2.7rem;
-    color: #506690;
-    margin-right: 1rem;
+    margin-right: 3rem;
+    margin-left: 0rem;
+    font-size: 1.7rem;
+  }
+
+  .navList2 {
+    margin-right: 3rem;
+    margin-left: 0rem;
+    font-size: 1.7rem;
+  }
+
+  .navWrapper {
+    height: 10rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+
+  .navBtn {
+    font-size: 1.7rem;
+    width: 14rem;
+    height: 5rem;
   }
 }
 
-@media all and (max-width: 624px) {
+@media all and (max-width: 56.25em) {
   .navWrapper {
-    width: auto;
+    display: flex;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    font-family: "grotesk-light", sans-serif;
-    margin-bottom: 5rem;
-    padding-bottom: 3rem;
+    padding: 2rem 0;
   }
 
   .logoBox {
-    margin-left: 3.683rem;
-    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5rem;
+    /* margin-bottom: 1rem; */
   }
 
   .logo {
-    font-size: 3rem;
-    color: #335eea;
-    letter-spacing: -0.01em;
-    font-family: "grotesk-semi-italic-bold", sans-serif;
+    font-size: 2rem;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1.5rem;
+  }
+
+  .navList {
+    margin-right: 1.5rem;
+    margin-left: 0rem;
+    font-size: 1.6rem;
+  }
+
+  .rightNav {
+    margin-right: 5px;
+  }
+
+  .navList2 {
+  }
+
+  .navBtn {
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 4.2rem;
+  }
+}
+
+@media all and (max-width: 43.7em) {
+  .navWrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .logoBox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    font-size: 4rem;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .navList {
+    margin-right: 1.5rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .rightNav {
+  }
+
+  .navList2 {
+    font-size: 2rem;
+    margin-right: 5rem;
+  }
+
+  .navBtn {
+    font-size: 1.9rem;
+    width: 11rem;
+    height: 4.2rem;
+  }
+}
+
+@media all and (max-width: 37.5em) {
+  .navWrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .logoBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .logo {
+    font-size: 5rem;
+    letter-spacing: 1rem;
   }
 
   .nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
     justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+    overflow: hidden;
   }
 
   .navList {
-    font-size: 3rem;
-    line-height: 2.7rem;
-    color: #506690;
-    margin-right: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
   }
 
   .rightNav {
-    font-size: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    margin-right: -7.8rem;
+    overflow: hidden;
+  }
+
+  .navList2 {
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 5rem;
   }
 
   .navBtn {
     font-size: 3rem;
-    line-height: 2.7rem;
-    color: #fff;
-    background-color: #335eea;
-    border-radius: 6px;
+    width: 15rem;
+    height: 5rem;
+    margin-left: -3rem;
+  }
+
+  .btn {
+    display: block;
+  }
+}
+
+@media all and (max-width: 20em) {
+  .navWrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0;
     width: 100%;
+    overflow: hidden;
+  }
+
+  .logoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+  }
+
+  .logo {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .nav {
+    margin-left: 0rem;
+  }
+
+  .navList {
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .rightNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-right: -7.8rem;
+  }
+
+  .navList2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .navBtn {
+    font-size: 3rem;
+    width: 15rem;
+    height: 5rem;
+    margin-left: -3rem;
+  }
+}
+
+@media all and (max-width: 17.5em) {
+  .navWrapper {
+    margin-left: 0.2rem;
+  }
+
+  .navList {
+    font-size: 2rem;
+  }
+
+  .navList2 {
+    font-size: 2rem;
+  }
+
+  .navBtn {
+    font-size: 2rem;
+    width: 12rem;
+    margin-left: -7rem;
+  }
+}
+
+@media all and (min-width: 112.5em) {
+  .navWrapper {
+    height: 13rem;
+  }
+  .logo {
+    font-size: 4rem;
+  }
+  .navList {
+    font-size: 3.2rem;
+    margin-right: 7rem;
+  }
+
+  .navList2 {
+    font-size: 3.2rem;
+  }
+
+  .navBtn {
+    font-size: 3rem;
+    width: 17rem;
     height: 7rem;
-    border: none;
   }
 }
