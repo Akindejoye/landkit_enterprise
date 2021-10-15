@@ -7,7 +7,6 @@ const BuildRender = () => {
             <Building />
             <Building />
             <Building />
-            
             <Building />
             <Building />
             <Building />

@@ -31,3 +31,18 @@
   opacity: 0.8;
   text-align: center;
 }
+
+/* 358px */
+@media all and (max-width: 22.375em) {
+  .buildWrapper {
+    margin-right: 0;
+  }
+
+  .buildHeader {
+    font-size: 1.8rem;
+  }
+
+  .buildText {
+    font-size: 1.2rem;
+  }
+}

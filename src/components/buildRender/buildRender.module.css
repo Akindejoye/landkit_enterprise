@@ -1,6 +1,7 @@
 .renderWrapper {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 20rem;
+  justify-content: space-around;
+  /* margin-left: 20rem; */
   margin-bottom: 35rem;
 }
