@@ -3,19 +3,9 @@
   font-family: "grotesk-light", sans-serif;
   position: relative;
   width: auto;
-}
-
-.innovateImgBox {
-  width: 149.6rem;
-}
-
-.innovateImg {
-  width: 149.6rem;
-  height: auto;
-  object-fit: cover;
-}
-
-.innovateTextBox {
+  min-height: 73.6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .innovateText {
@@ -53,6 +43,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  margin-bottom: -2rem;
 
   position: absolute;
   top: 100%;
@@ -60,7 +51,77 @@
   transform: translate(-50%, -50%);
 }
 
-@media all and (max-width: 1026px) {
+/**********************MEDIA QUERY******************************/
+
+/* 1463px */
+@media all and (max-width: 91.4375em) {
+  .innovateWrapper {
+    background-size: 100%;
+  }
+
+  .downPagebox {
+    /* margin-bottom: -1rem; */
+  }
+}
+
+/* 1412px */
+@media all and (max-width: 88.25em) {
+  .downPagebox {
+    top: 98%;
+  }
+}
+
+@media all and (max-width: 115.33em) {
+  .downPagebox {
+    top: 96%;
+  }
+}
+
+@media all and (max-width: 84em) {
+  .downPagebox {
+    top: 92%;
+  }
+}
+
+@media all and (max-width: 80em) {
+  .downPagebox {
+    top: 87%;
+  }
+}
+
+@media all and (max-width: 75em) {
+  .innovateWrapper {
+    margin-bottom: -10rem;
+  }
+
+  .downPagebox {
+    top: 82%;
+  }
+}
+
+@media all and (max-width: 71.875em) {
+  .downPagebox {
+    top: 79%;
+  }
+}
+
+@media all and (max-width: 68.3125em) {
+  .downPagebox {
+    top: 74%;
+  }
+}
+
+@media all and (max-width: 66.75em) {
+  .innovateWrapper {
+    margin-bottom: -20rem;
+  }
+
+  .downPagebox {
+    top: 73%;
+  }
+}
+
+@media all and (max-width: 64.125em) {
   .innovateText {
     position: absolute;
     top: 24rem;
@@ -74,9 +135,45 @@
     left: 8rem;
     transform: translate(-50%, -50%);
   }
+
+  .downPagebox {
+    top: 68%;
+  }
 }
 
-@media all and (max-width: 798px) {
+@media all and (max-width: 64.0625em) {
+  .downPagebox {
+    top: 70%;
+  }
+}
+
+@media all and (max-width: 60.125em) {
+  .innovateWrapper {
+    margin-bottom: -20rem;
+  }
+
+  .downPagebox {
+    top: 66%;
+  }
+}
+
+@media all and (max-width: 58.625em) {
+  .downPagebox {
+    top: 63%;
+  }
+}
+
+@media all and (max-width: 53.6875em) {
+  .downPagebox {
+    top: 58%;
+  }
+}
+
+@media all and (max-width: 49.875em) {
+  .innovateWrapper {
+    margin-bottom: -30rem;
+  }
+
   .innovateText {
     font-size: 2rem;
     top: 20rem;
@@ -87,9 +184,27 @@
     top: 32rem;
     left: 9rem;
   }
+
+  .downPagebox {
+    top: 55%;
+  }
 }
 
-@media all and (max-width: 638px) {
+@media all and (max-width: 46.25em) {
+  .innovateWrapper {
+    margin-bottom: -40rem;
+  }
+
+  .downPagebox {
+    top: 48%;
+  }
+}
+
+@media all and (max-width: 39.875em) {
+  .innovateWrapper {
+    margin-bottom: -40rem;
+  }
+
   .innovateText {
     font-size: 1.5rem;
     top: 15rem;
@@ -101,9 +216,19 @@
     top: 25rem;
     left: 5rem;
   }
+
+  .downPagebox {
+    top: 44%;
+  }
 }
 
-@media all and (max-width: 511px) {
+@media all and (max-width: 36.56em) {
+  .downPagebox {
+    top: 36%;
+  }
+}
+
+@media all and (max-width: 31.9375rem) {
   .innovateText {
     font-size: 1.5rem;
     top: 10rem;
@@ -115,9 +240,23 @@
     top: 18rem;
     left: 5rem;
   }
+
+  .downPagebox {
+    top: 33%;
+  }
 }
 
-@media all and (max-width: 378px) {
+@media all and (max-width: 27.25em) {
+  .downPagebox {
+    top: 28%;
+  }
+}
+
+@media all and (max-width: 23.625em) {
+  .innovateWrapper {
+    margin-bottom: -55rem;
+  }
+
   .innovateText {
     font-size: 1rem;
     top: 8rem;
@@ -128,5 +267,15 @@
   .innovateTextName {
     top: 13rem;
     left: 5rem;
+  }
+
+  .downPagebox {
+    top: 25%;
+  }
+}
+
+@media all and (max-width: 20em) {
+  .downPagebox {
+    top: 21%;
   }
 }

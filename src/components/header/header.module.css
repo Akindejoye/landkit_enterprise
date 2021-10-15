@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&family=Space+Grotesk:wght@300&display=swap");
 
 .headerWrapper {
-  width: auto;
+  max-width: 100%;
   height: 62.43rem;
 
   background-color: #fff;
+  background-size: cover;
   font-family: "grotesk", sans-serif;
   position: relative;
 }
@@ -62,90 +63,81 @@
   cursor: pointer;
 
   position: absolute;
-  bottom: -23rem;
-  left: 30rem;
+  top: 190%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .arrow-down {
   font-size: 5rem;
 }
 
-@media all and (max-width: 1247px) {
+/***********************MEDIA QUERY******************************/
+
+@media all and (max-width: 78.125em) {
   .texBox {
-    text-align: center;
     width: 100%;
   }
-
-  .downPagebox {
-    position: absolute;
-    bottom: -22rem;
-    left: 59rem;
+  .headerTextL {
+    display: flex;
+    justify-content: center;
   }
 }
 
-@media all and (max-width: 1238px) {
-  .downPagebox {
-    position: absolute;
-    bottom: -22rem;
-    left: 60rem;
-  }
-}
-
-@media all and (max-width: 1209px) {
-  .downPagebox {
-    position: absolute;
-    top: 190%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
-@media all and (max-width: 623px) {
-  .downPagebox {
-    top: 222%;
+@media all and (max-width: 40.625em) {
+  .headerWrapper {
+    width: auto;
+    margin: 0 auto;
   }
 
   .headerTextL {
-    font-size: 5rem;
-    line-height: 3rem;
-    margin-bottom: 1.7rem;
+    font-size: 3.5rem;
   }
 
   .headerTextSm {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
-@media all and (max-width: 515px) {
+@media all and (max-width: 32.625em) {
+  .headerWrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 100%;
+  }
+}
+
+@media all and (max-width: 22.5em) {
   .headerTextL {
     font-size: 2rem;
-    line-height: 4rem;
   }
 
-  .downPagebox {
-    top: 210%;
+  .headerTextSm {
+    font-size: 1.3rem;
   }
 }
 
-@media all and (max-width: 515px) {
+@media all and (max-width: 19.25em) {
+  .headerWrapper {
+    overflow: hidden;
+    width: auto;
+    border: none;
+    margin: 0 auto;
+  }
   .headerTextL {
     font-size: 2rem;
-    line-height: 4rem;
+  }
+
+  .headerTextSm {
+    font-size: 1rem;
+    line-height: 2rem;
   }
 
   .downPagebox {
-    top: 210%;
-  }
-}
-
-@media all and (max-width: 465px) {
-  .downPagebox {
-    top: 180%;
-  }
-}
-
-@media all and (max-width: 435px) {
-  .downPagebox {
-    top: 167%;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

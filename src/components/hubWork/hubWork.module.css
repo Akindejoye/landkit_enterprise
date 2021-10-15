@@ -100,87 +100,171 @@
   margin-right: -2.5rem;
 }
 
-@media all and (max-width: 1297px) {
-  .transportBox {
-    display: flex;
-    flex-direction: column;
-  }
+/**********************MEDIA QUERY******************************/
 
-  .transport2Box {
-    display: flex;
-    flex-direction: column;
+@media all and (min-width: 75em) {
+  .hubHeader {
+    font-size: 4rem;
+    margin-bottom: 3rem;
   }
-
-  .transport3Box {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .transport4Box {
-    display: flex;
-    flex-direction: column;
+  .hubSubHeader {
+    font-size: 3rem;
+    line-height: 5rem;
   }
 }
 
-@media all and (max-width: 949px) {
-  .hubSectionRowBox1 {
-    display: flex;
-    justify-content: space-between;
-  }
+/* 1300px */
 
+@media all and (max-width: 81.25em) {
   .transportBox {
-    margin-left: 11rem;
+    margin-left: 5rem;
   }
 
   .transport2Box {
-    margin-right: 9rem;
+    margin-right: 1rem;
   }
 
   .transport3Box {
-    margin-left: 2rem;
+    margin-left: 5rem;
   }
 
   .transport4Box {
-    margin-right: 2rem;
-    margin-bottom: 11.2rem;
+    margin-right: 1rem;
   }
 }
 
-@media all and (max-width: 797px) {
-  .hubSectionRowBox1 {
-    display: flex;
+@media all and (max-width: 75em) {
+  .hubWrapper {
+    padding-bottom: 4rem;
+  }
+
+  .transportBox {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 10rem;
   }
 
-  .transportBox {
-    margin: 0rem;
+  .transportImgBox {
     margin-bottom: 2rem;
   }
 
   .transport2Box {
-    margin: 0rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .transport2ImgBox {
     margin-bottom: 2rem;
+  }
+
+  .transport3Box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .transport3ImgBox {
+    margin-bottom: 2rem;
+  }
+
+  .transport4Box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .transport4ImgBox {
+    margin-bottom: 2rem;
+  }
+}
+
+@media all and (max-width: 56.25em) {
+  .hubHeader {
+    font-size: 2.9rem;
+  }
+
+  .hubSubHeader {
+    font-size: 1.7rem;
+  }
+}
+
+@media all and (max-width: 37.5em) {
+  .hubHeader {
+    font-size: 2.5rem;
+  }
+
+  .hubSubHeader {
+    font-size: 1.5rem;
+  }
+}
+
+/* 700px */
+
+@media all and (max-width: 43.75em) {
+  .transportBox {
+    margin-left: 0rem;
+  }
+
+  .transport2Box {
+    margin-right: 0rem;
+  }
+
+  .transport3Box {
+    margin-left: 0rem;
+  }
+
+  .transport4Box {
+    margin-right: 0rem;
+  }
+}
+
+@media all and (max-width: 37.5em) {
+  .hubWrapper {
+    padding-bottom: 3rem;
+  }
+
+  .hubSectionRowBox1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .hubSectionRowBox2 {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 10rem;
+  }
+}
+
+/* 520px */
+
+@media all and (max-width: 32.5em) {
+  .hubWrapper {
+    padding-bottom: 4rem;
   }
 
-  .transport3Box {
-    margin: 0rem;
-    margin-bottom: 2rem;
-    margin-bottom: 2rem;
+  .hubWrapper {
+    margin-top: 5rem;
   }
 
-  .transport4Box {
-    margin: 0rem;
-    margin-bottom: 11.2rem;
+  .hubHeader {
+    font-size: 1.2rem;
+  }
+
+  .hubSubHeader {
+    font-size: 0.9rem;
+  }
+}
+
+/* 300px */
+
+@media all and (max-width: 18.75em) {
+  .hubWrapper {
+    padding-bottom: 4rem;
+  }
+
+  .transportText {
+    font-size: 1.4rem;
   }
 }

@@ -32,13 +32,6 @@
   margin-bottom: 2rem;
 }
 
-.formHeader {
-  font-size: 3.1rem;
-  line-height: 4.1rem;
-  letter-spacing: -0.01em;
-  color: #161b2d;
-}
-
 .formText {
   font-size: 1.9rem;
   line-height: 2.3rem;
@@ -136,43 +129,43 @@
   cursor: pointer;
 }
 
-@media all and (max-width: 916px) {
+/*******************MEDIA QUERY********************/
+
+/* 1030px */
+@media all and (max-width: 64.375em) {
   .formWrapperTop {
-    position: absolute;
-    bottom: 60rem;
-    left: 20%;
-    z-index: 999;
+    left: 10rem;
+    right: 10rem;
   }
 }
 
-@media all and (max-width: 792px) {
+/* 670px */
+
+@media all and (max-width: 41.875em) {
   .formWrapperTop {
-    position: absolute;
-    bottom: 60rem;
-    left: 10%;
-    z-index: 999;
+    left: 2rem;
+    right: 2rem;
   }
 }
 
-@media all and (max-width: 670px) {
+@media all and (max-width: 37.5em) {
   .formWrapperTop {
-    position: absolute;
-    bottom: 60rem;
-    left: 0%;
-    z-index: 999;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .formWrapperTop {
-    position: absolute;
-    bottom: 60rem;
-    left: 20%;
-    z-index: 999;
+    display: flex;
+    margin-bottom: -14rem;
+    left: 0;
+    right: 0;
+    overflow: hidden;
   }
 
-  .formWrapper {
-    width: auto;
+  .formImage {
+  }
+
+  .formHeader {
+    /* font-size: 1rem; */
+  }
+
+  .formText {
+    font-size: 1.3rem;
   }
 
   .formRow1 {
@@ -199,9 +192,5 @@
 
   .inputPassword {
     margin-bottom: 5rem;
-  }
-
-  .formHeader {
-    font-size: 2rem;
   }
 }

@@ -3,9 +3,6 @@ import Breaking from './innovate.module.css';
 const Innovate = () => {
     return ( 
         <div className={Breaking.innovateWrapper} style={{backgroundImage:`url('/images/innovate.svg')`}}>
-            <div className={Breaking.innovateImgBox}>
-                <img src="/images/innovate.svg" alt="Innovation" className={Breaking.innovateImg} />
-            </div>
             <div className={Breaking.innovateTextBox}>
                 <p className={Breaking.innovateText}>
                     "Integrate the latest technologies with<br/>
@@ -17,9 +14,9 @@ const Innovate = () => {
                     Alice Meyer
                 </span>
             </div>
-            <div className={Breaking.downPagebox}>
-                <i className="arrow-up fas fa-arrow-up"></i>
-            </div>
+                <div className={Breaking.downPagebox}>
+                    <i className="arrow-up fas fa-arrow-up"></i>
+                </div>
         </div>
      );
 }

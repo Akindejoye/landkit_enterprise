@@ -1,5 +1,6 @@
 .footerWrapper {
-  width: 149.6rem;
+  /* width: 149.6rem; */
+  max-width: 100%;
   height: 93.1rem;
   /* background-color: #2b354f; */
   font-family: "grotesk-light", sans-serif;
@@ -148,32 +149,46 @@
   margin-bottom: 1.4rem;
 }
 
-@media all and (max-width: 1144px) {
+/*******************MEDIA QUERY********************/
+
+@media all and (min-width: 75em) {
+  .footerCentered {
+    justify-content: space-around;
+  }
+
+  .logoCol {
+    margin-left: 0rem;
+  }
+}
+
+/* 1144px */
+@media all and (max-width: 71.5em) {
   .logoCol {
     margin-left: 10rem;
     margin-right: 11.6rem;
   }
 }
 
-@media all and (max-width: 992px) {
+/* 992px */
+@media all and (max-width: 62em) {
   .logoCol {
     margin-left: 5rem;
     margin-right: 5rem;
   }
 }
 
-@media all and (max-width: 852px) {
+/* 852px */
+@media all and (max-width: 53.25em) {
   .footerCentered {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
   }
 
   .footerMargin {
-    position: absolute;
+    /* position: absolute;
     bottom: -70rem;
     left: 0rem;
-    width: 100%;
+    width: 100%; */
   }
 
   .footerCentered {
@@ -182,17 +197,57 @@
 
   .logoCol {
     margin-bottom: 4rem;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
-  .productCol {
-    margin-bottom: 4rem;
+  .logoColText {
+    font-size: 1.3rem;
   }
 
-  .servicesCol {
-    margin-bottom: 4rem;
+  .logoColSocials {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
   }
 
-  .connectCol {
+  .productCol,
+  .servicesCol,
+  .connectCol,
+  .legalCol {
     margin-bottom: 4rem;
+    margin-right: 5px;
+  }
+
+  .productColList,
+  .servicesColList,
+  .connectColList,
+  .legalColList {
+    font-size: 1rem;
+  }
+}
+
+/* 400px */
+@media all and (max-width: 25em) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .logoColText {
+    font-size: 1rem;
+  }
+
+  .productColHeader,
+  .servicesColHeader,
+  .connectColHeader,
+  .legalColHeader {
+    font-size: 0.9rem;
+  }
+
+  .productColList,
+  .servicesColList,
+  .connectColList,
+  .legalColList {
+    font-size: 0.6rem;
   }
 }

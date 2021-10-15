@@ -3,6 +3,21 @@
   justify-content: flex-end;
 }
 
+@media all and (min-width: 75em) {
+  .sectionWrapper {
+    justify-content: space-around;
+  }
+}
+
+/* 900px */
+@media all and (max-width: 56.25em) {
+  .sectionWrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media all and (max-width: 660px) {
   .sectionWrapper {
     display: flex;
