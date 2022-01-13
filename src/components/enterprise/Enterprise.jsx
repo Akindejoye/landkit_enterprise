@@ -16,7 +16,7 @@ const Enterprise = () => {
                         Integrate the latest technologies with an<br/>
                         innovative platform that's always getting better<br/>
                         and lauching new features weekly. Integrate the<br/>
-                        latest technologies with.
+                        latest technologies with us.
                     </p>
                     <div className={Manseur.enterpriseLinkBox}>
                         <span className={Manseur.enterpriseWeb}>www.yoursite.com</span>
